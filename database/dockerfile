@@ -1,5 +1,5 @@
 FROM mysql:latest
 LABEL database="studentapp"
-ENV MYSQL_ROOT_PASSWORD=1234
-COPY init-db.sql /docker-entrypoint-initdb.d/
+ENV MYSQL_ROOT_PASSWORD=redhat1234
+COPY database-1.cziwgc20czdf.eu-north-1.rds.amazonaws.com
 CMD ["mysqld"]
